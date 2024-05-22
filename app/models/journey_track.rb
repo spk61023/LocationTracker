@@ -1,0 +1,2 @@
+class JourneyTrack < ApplicationRecord
+end

@@ -1,24 +1,23 @@
-# README
+The server will start on `localhost:3000`.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## API Endpoints
 
-Things you may want to cover:
+- `POST /api/test/UpdateUserLocation`: Updates a user's location.
+  params required are as follows
+- `userId`: The ID of the user whose location needs to be updated.
+- `latitude`: The latitude coordinate of the user's location.
+- `longitude`: The longitude coordinate of the user's location.
+- `GET /api/test/getJourneyTrack`: Retrieves a user's journey track.
+- `DELETE /api/test/deleteLocationData`: Deletes all user location data.
 
-* Ruby version
+## Running the tests
 
-* System dependencies
+Explain how to run the automated tests for this system.
 
-* Configuration
+## Contributing
 
-* Database creation
+Please read [CONTRIBUTING.md](https://github.com/yourusername/your-repo-name/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-* Database initialization
+## License
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/yourusername/your-repo-name/blob/main/LICENSE.md) file for details.

@@ -10,9 +10,9 @@ The server will start on `localhost:3000`.
 - `GET /api/test/getJourneyTrack`: Retrieves a user's journey track.
 - `DELETE /api/test/deleteLocationData`: Deletes all user location data.
 
-## Running the tests
+## Running the rails app so that android app communicates
 
-Explain how to run the automated tests for this system.
+- `rails server -b 0.0.0.0`
 
 ## Contributing
 
